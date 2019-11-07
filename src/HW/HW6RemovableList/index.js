@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-export default class HW5ItemList extends Component {
+export default class HW6RemovableList extends Component {
   constructor() {
     super();
     this.state = {
@@ -26,20 +26,27 @@ export default class HW5ItemList extends Component {
     
   }
 
+  handleDelete = index => {
 
+    this.setState({
+      list: [
+        ...this.state.list.slice(0, index),
+        ...this.state.list.slice(index + 1),
+      ]
+    });
+    
+  }
   render() {
     return (
       <div>
-        <h1>清單</h1>
-        在輸入框任意輸入後 Enter 即可產生一筆新項目 <br/>
-        並且會把原本的輸入格清空 <br/>
-        若使用者輸入空白或沒輸入則不能新增
+        <h1>可移除的清單</h1>
+        繼HW5後，新增可移除的功能
         <form onSubmit={this.handleSubmit}>
           <input type="text" value={this.state.value} onChange={this.handleChange} />
         </form>
         <ul>
           {this.state.list.map((item, index) =>
-            <li key={index}>{item}</li>
+            <li key={index}>{item} <button onClick={this.handleDelete.bind(this, index)}>remove</button> </li>
           )}
         </ul>
       </div>
