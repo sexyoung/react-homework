@@ -8,6 +8,7 @@ import HW7PersonTable from './HW7PersonTable';
 import HW8SumForButton from './HW8SumForButton';
 import HW9HYN from './HW9HYN';
 import HW10Currency from './HW10Currency';
+import HW11ColorPad from './HW11ColorPad';
 
 export default {
   HW1Counter,
@@ -20,4 +21,5 @@ export default {
   HW8SumForButton,
   HW9HYN,
   HW10Currency,
+  HW11ColorPad,
 }
