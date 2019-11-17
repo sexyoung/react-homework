@@ -9,6 +9,8 @@ import HW8SumForButton from './HW8SumForButton';
 import HW9HYN from './HW9HYN';
 import HW10Currency from './HW10Currency';
 import HW11ColorPad from './HW11ColorPad';
+import HW12Tab from './HW12Tab';
+import HW13TodoList from './HW13TodoList';
 
 export default {
   HW1Counter,
@@ -22,4 +24,6 @@ export default {
   HW9HYN,
   HW10Currency,
   HW11ColorPad,
+  HW12Tab,
+  HW13TodoList,
 }

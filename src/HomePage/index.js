@@ -7,19 +7,27 @@ export default function HomePage() {
       <h1>React Homework</h1>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
-          <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW11ColorPad">ColorPad</Link>
+          <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW13TodoList">TodoList</Link>
+          ：react 的綜合應用
+        </li>
+        <li className="list-group-item">
+          <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW12Tab">Tab</Link>
+          ：標籤
+        </li>
+        <li className="list-group-item">
+          <Link to="/HW/HW11ColorPad">ColorPad</Link>
           ：控制 css
         </li>
         <li className="list-group-item">
-          <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW10Currency">Currency</Link>
+          <Link to="/HW/HW10Currency">Currency</Link>
           ：傳遞function 到子層
         </li>
         <li className="list-group-item">
-          <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW9HYN">Happy New Year</Link>
+          <Link to="/HW/HW9HYN">Happy New Year</Link>
           ：計時器 與 日期的應用
         </li>
         <li className="list-group-item">
-          <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW8SumForButton">SumForButton</Link>
+          <Link to="/HW/HW8SumForButton">SumForButton</Link>
           ：bind的使用時機
         </li>
         <li className="list-group-item">
