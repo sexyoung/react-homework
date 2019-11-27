@@ -12,6 +12,7 @@ import HW11ColorPad from './HW11ColorPad';
 import HW12Tab from './HW12Tab';
 import HW13TodoList from './HW13TodoList';
 import HW14Pokemon from './HW14Pokemon';
+import HW15LengthConversion from './HW15LengthConversion';
 
 export default {
   HW1Counter,
@@ -28,4 +29,5 @@ export default {
   HW12Tab,
   HW13TodoList,
   HW14Pokemon,
+  HW15LengthConversion,
 }

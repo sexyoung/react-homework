@@ -7,8 +7,12 @@ export default function HomePage() {
       <h1>React Homework</h1>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
+          <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW15LengthConversion">LengthConversion</Link>
+          ：長度轉換
+        </li>
+        <li className="list-group-item">
           <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW14Pokemon">Pokemon</Link>
-          ：fetch 與 filter
+          ：寶可夢篩選 fetch 與 filter
         </li>
         <li className="list-group-item">
           <Link to="/HW/HW13TodoList">TodoList</Link>
