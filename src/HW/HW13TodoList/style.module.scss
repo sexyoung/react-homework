@@ -1,4 +1,10 @@
 .HW13TodoList {
+  li {
+    cursor: pointer;
+    &:hover {
+      background-color: #eee;
+    }
+  }
   .done {
     text-decoration: line-through;
   }

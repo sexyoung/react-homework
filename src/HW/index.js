@@ -11,6 +11,7 @@ import HW10Currency from './HW10Currency';
 import HW11ColorPad from './HW11ColorPad';
 import HW12Tab from './HW12Tab';
 import HW13TodoList from './HW13TodoList';
+import HW14Pokemon from './HW14Pokemon';
 
 export default {
   HW1Counter,
@@ -26,4 +27,5 @@ export default {
   HW11ColorPad,
   HW12Tab,
   HW13TodoList,
+  HW14Pokemon,
 }

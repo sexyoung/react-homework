@@ -8,7 +8,6 @@ export default class HW13TodoList extends Component {
     super();
     this.state = {
       value: '',
-      tabIndex: 'all',
       list: [
         { id: Math.random(), content: '待辦事項1', done: false },
         { id: Math.random(), content: '待辦事項2', done: false },
@@ -55,7 +54,7 @@ export default class HW13TodoList extends Component {
           <div className="input-group mb-3">
             <input type="text" className="form-control" placeholder="todo..." value={value} onChange={this.handleChange}  />
             <div className="input-group-append">
-              <button className="btn btn-outline-secondary" type="button">Create!</button>
+              <button className="btn btn-outline-secondary">Create!</button>
             </div>
           </div>
         </form>
