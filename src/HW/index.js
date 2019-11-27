@@ -13,6 +13,7 @@ import HW12Tab from './HW12Tab';
 import HW13TodoList from './HW13TodoList';
 import HW14Pokemon from './HW14Pokemon';
 import HW15LengthConversion from './HW15LengthConversion';
+import HW16NumberGame from './HW16NumberGame';
 
 export default {
   HW1Counter,
@@ -30,4 +31,5 @@ export default {
   HW13TodoList,
   HW14Pokemon,
   HW15LengthConversion,
+  HW16NumberGame,
 }
