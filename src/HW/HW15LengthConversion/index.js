@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import LenInput from './LenInput';
 
+const sumSerial = n => {
+  return [...Array(n).keys()].reduce((sum, value) => sum + value , 0);
+}
+
 const unitConverter = (number, oriUnit, toUnit) => {
   if(!oriUnit) return 0;
   const unitList = ['mm', 'cm', 'm', 'km'];

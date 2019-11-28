@@ -20,7 +20,7 @@ export default function HW14Pokemon() {
         <h3>前提</h3>
         請使用 https://pokeapi.co/api/v2/pokemon/?limit=100 來抓取100取寶可夢資訊 <br />
         每隻寶可夢的資料皆有 name, url 可從 url 取得該寶可夢的 id <br />
-        每隻寶可夢的圖片位址為： https://pokeapi.co/api/v2/pokemon/[id].png
+        每隻寶可夢的圖片位址為： https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/[id].png
         <h3>目標</h3>
         <ol>
           <li>順利抓取 100 隻寶可夢的名字 與 圖片</li>
