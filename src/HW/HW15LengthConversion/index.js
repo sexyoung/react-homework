@@ -1,15 +1,23 @@
 import React, { Component } from 'react';
 import LenInput from './LenInput';
 
-const sumSerial = n => {
-  return [...Array(n).keys()].reduce((sum, value) => sum + value , 0);
+const proportion = {
+  'mm':       1,
+  'cm':      10,
+  'm':     1000,
+  'km': 1000000,
 }
 
 const unitConverter = (number, oriUnit, toUnit) => {
   if(!oriUnit) return 0;
-  const unitList = ['mm', 'cm', 'm', 'km'];
-  const mm = number * Math.pow(10, unitList.indexOf(oriUnit));
-  return mm / Math.pow(10, unitList.indexOf(toUnit));
+/**
+ * 1000000 km -> 6
+ * 100000 m -> 5
+ * 1000 cm -> 3
+ * 1 -> 0
+ */
+  const mm = number * proportion[oriUnit];
+  return mm / proportion[toUnit];
 }
 
 export default class HW15LengthConversion extends Component {
