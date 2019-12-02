@@ -14,6 +14,7 @@ import HW13TodoList from './HW13TodoList';
 import HW14Pokemon from './HW14Pokemon';
 import HW15LengthConversion from './HW15LengthConversion';
 import HW16NumberGame from './HW16NumberGame';
+import HW17RandomNum from './HW17RandomNum';
 
 export default {
   HW1Counter,
@@ -32,4 +33,5 @@ export default {
   HW14Pokemon,
   HW15LengthConversion,
   HW16NumberGame,
+  HW17RandomNum,
 }
