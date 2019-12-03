@@ -15,6 +15,8 @@ import HW14Pokemon from './HW14Pokemon';
 import HW15LengthConversion from './HW15LengthConversion';
 import HW16NumberGame from './HW16NumberGame';
 import HW17RandomNum from './HW17RandomNum';
+import HW18TwinklingChar from './HW18TwinklingChar';
+import HW19Gopher from './HW19Gopher';
 
 export default {
   HW1Counter,
@@ -34,4 +36,6 @@ export default {
   HW15LengthConversion,
   HW16NumberGame,
   HW17RandomNum,
+  HW18TwinklingChar,
+  HW19Gopher,
 }
