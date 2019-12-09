@@ -6,10 +6,10 @@ export default function HomePage() {
     <div className="container">
       <h1>React Homework</h1>
       <ul className="list-group list-group-flush">
-        {/* <li className="list-group-item">
+        <li className="list-group-item">
           <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW19Gopher">Gopher</Link>
           ：打地鼠遊戲
-        </li> */}
+        </li>
         <li className="list-group-item">
           <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW18TwinklingChar">TwinklingChar</Link>
           ：閃爍的字母

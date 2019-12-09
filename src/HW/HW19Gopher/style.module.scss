@@ -1,0 +1,13 @@
+.Gopher {
+  width: 50px;
+  cursor: pointer;
+  font-size: 30px;
+  display: inline-block;
+  border: 1px solid #eee;
+  &.box {
+    background-color: #fcc;
+    &:hover {
+      background-color: #ffc;
+    }
+  }
+}
