@@ -17,6 +17,7 @@ import HW16NumberGame from './HW16NumberGame';
 import HW17RandomNum from './HW17RandomNum';
 import HW18TwinklingChar from './HW18TwinklingChar';
 import HW19Gopher from './HW19Gopher';
+import HW20GuessNum from './HW20GuessNum';
 
 export default {
   HW1Counter,
@@ -38,4 +39,5 @@ export default {
   HW17RandomNum,
   HW18TwinklingChar,
   HW19Gopher,
+  HW20GuessNum,
 }
