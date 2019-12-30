@@ -7,6 +7,10 @@ export default function HomePage() {
       <h1>React Homework</h1>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
+          <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW22Cart">Cart</Link>
+          購物車
+        </li>
+        <li className="list-group-item">
           <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW211A2B">1A2B</Link>
           猜數字
         </li>
