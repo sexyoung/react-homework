@@ -1,0 +1,33 @@
+.HW23SunMoon {
+  min-height: 100vh;
+  transition: all .3s;
+  &.sun {
+    background-color: #d9ebff;
+  }
+  &.moon {
+    color: #fff;
+    background-color: #061321;
+    .icon {
+      top: calc(-100vh + 100px);
+    }
+  }
+
+  .dashboard {
+    position: relative;
+    z-index: 1;
+  }
+
+  .icon {
+    top: 0;
+    z-index: 0;
+    position: relative;
+    display: inline-block;
+    transition: all .3s;
+    img {
+      display: block;
+      &:first-of-type {
+        margin-bottom: 300px;
+      }
+    }
+  }
+}
