@@ -1,13 +1,16 @@
 import React, { createRef } from 'react';
 import './Fruit.scss';
 
-const input = createRef();
-
 export default function Fruit(props) {
+
+  const input = createRef();
 
   const handleSubmit = e => {
     e.preventDefault();
+    props.addCart(props.id, +input.current.value);
+    input.current.value = '';
   }
+  
 
   return (
     <div className="Fruit">
