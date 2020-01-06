@@ -19,6 +19,7 @@ export default function HW23SunMoon() {
         太陽圖片: https://img.icons8.com/cotton/256/000000/sun--v1.png <br />
         月亮圖片: https://img.icons8.com/cotton/256/000000/moon-satellite.png
       </div>
+      請仔細觀察太陽與月亮的位置，「必須」對準正中央
 
       <div className="dashboard">
         <button className="btn btn-primary" onClick={handleChange}>
@@ -27,8 +28,8 @@ export default function HW23SunMoon() {
       </div>
 
       <div className="icon">
-        <img src="https://img.icons8.com/cotton/256/000000/sun--v1.png" />
-        <img src="https://img.icons8.com/cotton/256/000000/moon-satellite.png" />
+        <div><img src="https://img.icons8.com/cotton/256/000000/sun--v1.png" /></div>
+        <div><img src="https://img.icons8.com/cotton/256/000000/moon-satellite.png" /></div>
       </div>
 
     </div>

@@ -8,7 +8,7 @@
     color: #fff;
     background-color: #061321;
     .icon {
-      top: calc(-100vh + 100px);
+      top: -100vh;
     }
   }
 
@@ -18,13 +18,24 @@
   }
 
   .icon {
+    left: 50%;
+    transform: translateX(-50%);
     top: 0;
     z-index: 0;
-    position: relative;
+    height: 200vh;
+    position: absolute;
     display: inline-block;
     transition: all .3s;
+    > div {
+      position: relative;
+      height: 100vh;
+    }
     img {
       display: block;
+      position: absolute;
+
+      top: 50%;
+      transform: translate(-50%, -50%);
       &:first-of-type {
         margin-bottom: 300px;
       }
