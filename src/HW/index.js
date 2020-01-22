@@ -21,6 +21,7 @@ import HW20GuessNum from './HW20GuessNum';
 import HW211A2B from './HW211A2B';
 import HW22Cart from './HW22Cart';
 import HW23SunMoon from './HW23SunMoon';
+import HW24Lottery from './HW24Lottery';
 
 export default {
   HW1Counter,
@@ -46,4 +47,5 @@ export default {
   HW211A2B,
   HW22Cart,
   HW23SunMoon,
+  HW24Lottery,
 }

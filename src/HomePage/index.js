@@ -7,11 +7,15 @@ export default function HomePage() {
       <h1>React Homework</h1>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
-          <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW23SunMoon">SunMoon</Link>
+          <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW24Lottery">Lottery</Link>
+          大樂透對獎
+        </li>
+        <li className="list-group-item">
+          <Link to="/HW/HW23SunMoon">SunMoon</Link>
           白天晚上
         </li>
         <li className="list-group-item">
-          <span className="badge badge-warning badge-pill">new</span> <Link to="/HW/HW22Cart">Cart</Link>
+          <Link to="/HW/HW22Cart">Cart</Link>
           購物車
         </li>
         <li className="list-group-item">
