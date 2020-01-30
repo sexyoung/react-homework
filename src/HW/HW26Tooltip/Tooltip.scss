@@ -1,0 +1,84 @@
+$bg: rgba(0,0,0, .8);
+@mixin triangle {
+  width: 0;
+  height: 0;
+  display: block;
+  position: absolute;
+  border-style: solid;
+}
+
+.tooltip-wrapper {
+  position: relative;
+  color: #f00;
+  &:hover .tooltipx {
+    display: block;
+  }
+  .tooltipx {
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    display: none;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    position: absolute;
+    background-color: $bg;
+    white-space: nowrap;
+    &:before {
+      content: '';
+    }
+    &.top {
+      top: -15px;
+      transform: translate(-50%, -100%);
+      &:before {
+        @include triangle();
+        border-width: 5px 5px 0 5px;
+        border-color: $bg transparent transparent transparent;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 100%);
+      }
+    }
+
+    &.right {
+      top: 50%;
+      left: 10px;
+      transform: translate(100%, -50%);
+      &:before {
+        @include triangle();
+        border-width: 5px 5px 5px 0;
+        border-color: transparent $bg transparent transparent;
+        left: 0%;
+        top: 50%;
+        transform: translate(-100%, -50%);
+      }
+    }
+
+    &.bottom {
+      top: 8px;
+      transform: translate(-50%, 100%);
+      &:before {
+        @include triangle();
+        border-width: 0 5px 5px 5px;
+        border-color: transparent transparent $bg transparent;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -100%);
+      }
+    }
+
+    &.left {
+      top: 50%;
+      left: -5px;
+      transform: translate(-100%, -50%);
+      &:before {
+        @include triangle();
+        border-width: 5px 0 5px 5px;
+        border-color: transparent transparent transparent $bg;
+        right: 0%;
+        top: 50%;
+        transform: translate(100%, -50%);
+      }
+    }
+  }
+}

@@ -22,6 +22,9 @@ import HW211A2B from './HW211A2B';
 import HW22Cart from './HW22Cart';
 import HW23SunMoon from './HW23SunMoon';
 import HW24Lottery from './HW24Lottery';
+import HW25Modal from './HW25Modal';
+import HW26Tooltip from './HW26Tooltip';
+import HW27Carousel from './HW27Carousel';
 
 export default {
   HW1Counter,
@@ -48,4 +51,7 @@ export default {
   HW22Cart,
   HW23SunMoon,
   HW24Lottery,
+  HW25Modal,
+  HW26Tooltip,
+  HW27Carousel,
 }

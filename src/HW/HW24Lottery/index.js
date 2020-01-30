@@ -12,9 +12,8 @@ export const makeLottery = () => {
 
 export const makeLotteryList = (size = 10) => {
   let list = [];
-  let lottery = '';
   do {
-    lottery = makeLottery();
+    const lottery = makeLottery();
     if(list.map(v => v.join('')).every(v => v !== lottery.join(''))) {
       list.push(lottery);
     }
